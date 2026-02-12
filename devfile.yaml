@@ -21,7 +21,7 @@ components:
 
   - name: mongo
     container:
-      image: bitnami/mongodb:8.0.8
+      image: bitnami/mongodb@sha256:b3bd5b6be9a0734dfa027c866ba17c42fd4c4325c973669e5e77a354c30e84a3
       env:
         - name: MONGODB_USERNAME
           value: user
