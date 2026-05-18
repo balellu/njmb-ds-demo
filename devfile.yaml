@@ -2,13 +2,6 @@ schemaVersion: 2.2.2
 metadata:
   name: nodejs-mongodb
 dependentProjects:
-- name: njmb-ds-app
-  git:
-    checkoutFrom:
-      remote: origin
-      revision: main
-    remotes:
-      origin: https://github.com/eclipse-che-demo-app/che-demo-app-ui.git
 - name: demo-app-ui
   git:
     checkoutFrom:
